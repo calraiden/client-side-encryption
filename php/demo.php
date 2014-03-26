@@ -21,7 +21,7 @@ curl_setopt($ch, CURLOPT_HEADER, 0);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_POST, 1);
 
-$data = array(
+
 $data = array(
     'action' => 'Payment.authorise',
     'paymentRequest.amount.currency' => 'EUR',
